@@ -18,7 +18,7 @@ function startTimer(duration, display) {
 }
 
 window.onload = function () {
-  var launchDate = new Date('July 10, 2023 00:00:00');
+  var launchDate = new Date('July 30, 2023 00:00:00');
   var currentDate = new Date();
   var timeDifference = launchDate - currentDate; // Difference in milliseconds
 
