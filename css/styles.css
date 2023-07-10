@@ -12,11 +12,12 @@ body {
 	background: #000;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Coustard', serif;
-	color:#fff;
+	font-family: 'sans-serif', serif;
+	color:#216d3a;
 	font-weight: normal;
 	letter-spacing: 1px;
 }
+
 h1{font-size: 63px; line-height: 70px; padding: 0; margin: 0;}
 h5{font-size: 28px; line-height: 35px; padding: 0; margin: 0; color: #b7b7b7;}
 
@@ -65,7 +66,7 @@ a:hover {text-decoration:underline;}
 	position:absolute;
 	width:20%;
 	z-index:1000;
-	color: #fff;
+	color: #0096FF;
 }
 
 .main-nav{
@@ -81,8 +82,14 @@ a:hover {text-decoration:underline;}
 	padding-left: 10px;
 	border-left: 1px solid #b7b7b7;
 }
-.main-nav ul li a.active {color: #ffa800;}
 
+.main-nav ul li a.active {color: #808fe6;}
+.cap{
+	color: #49ba80;
+}
+.email{
+	color: #0096FF;
+}
 .social-nav {
 	position:absolute;
 	top: 0px;
@@ -93,7 +100,7 @@ a:hover {text-decoration:underline;}
 	list-style: none;
 	display:block;
 	float: left;
-	background: #393939;
+	background: #0096FF;
 	padding:100px 10px 5px 10px;
 	margin: 1px;
 	opacity: .5;
